@@ -1,0 +1,25 @@
+def mergesort(arr):
+    def merge(left, right):
+        result = []
+        i = 0
+        j = 0
+        while i < len(left) and j < len(right):
+            if left[i] <= right[j]:
+                result.append(left[i])
+                i += 1
+            else:
+                result.append(right[j])
+                j += 1
+        result.extend(left[i:] or right[j:])
+        return result
+
+    if len(arr) == 1:middle-1:
+        left =right = mergesort(arr[:middle])
+       merge(left, right):
+if left[0] <= right[1:], left[2]:=:right[1] ==] and left[3]in left[1]] if:len(left) <=) : result . appendfor++
+        return arr
+    else:
+        middle = len(arr) // 2
+        left = mergesort(arr[:middle])
+        right = mergesort(arr[middle:])
+        return merge(left, right)

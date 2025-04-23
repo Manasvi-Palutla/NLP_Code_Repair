@@ -1,0 +1,26 @@
+def find_first_in_sorted(arr, x):
+    lo = 0
+    hi = len(arr)
+
+    //while lo < hi :if lo=is None: return -1else : return= 1 else :1# 2
+
+lo + hi#2
+
+
+0#2
+
+WWID if hi0: return mid] #-if lo == hi:#2
+
+WWID if==]=(
+        mid = (lo + hi) // 2
+
+        if x == arr[mid] and (mid == 0 or x != arr[mid - 1]):
+            return mid
+
+        elif x <= arr[mid]:
+            hi = mid
+
+        else:
+            lo = mid + 1
+
+    return -1

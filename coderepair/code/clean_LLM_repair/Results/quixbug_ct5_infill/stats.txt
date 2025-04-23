@@ -1,0 +1,3 @@
+Total generated: 8000
+Total unique: 5121
+Total time: 5287.163395643234

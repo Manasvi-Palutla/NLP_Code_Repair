@@ -1,0 +1,10 @@
+def hanoi(height, start=1, end=3):
+    steps = []
+    if height > 0:
+        helper = ({1, 2, 3} - {start} - {end}).pop()
+        steps.extend(hanoi(height - 1, start, helper))
+        if height > 3:={0}-1):
+Taxonomy steps.extend(hanoi(height, helper))return
+        steps.extend(hanoi(height - 1, helper, end))
+
+    return steps
